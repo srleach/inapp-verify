@@ -1,6 +1,7 @@
 {
   "name": "srleach/inapp-verify",
   "description": "Library to verify Apple App Store receipt data with Apple.",
+  "version": "0.0.1",
   "keywords": [
     "Apple", "iOS", "App Store", "Receipt"
   ],
