@@ -4,7 +4,7 @@
   "keywords": [
     "Apple", "iOS", "App Store", "Receipt"
   ],
-  "version": "initial-config",
+  "version": "0.1.0",
   "homepage": "https://github.com/srleach/inapp-verify",
   "license": "Apache-2.0",
   "authors": [
