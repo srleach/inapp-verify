@@ -1,10 +1,10 @@
 {
   "name": "srleach/inapp-verify",
   "description": "Library to verify Apple App Store receipt data with Apple.",
-  "version": "0.0.1",
   "keywords": [
     "Apple", "iOS", "App Store", "Receipt"
   ],
+  "version": "initial-config",
   "homepage": "https://github.com/srleach/inapp-verify",
   "license": "Apache-2.0",
   "authors": [
