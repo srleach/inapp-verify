@@ -6,7 +6,7 @@
     "Apple", "iOS", "App Store", "Receipt"
   ],
   "homepage": "https://github.com/srleach/inapp-verify",
-  "license": "Apache V2",
+  "license": "Apache-2.0",
   "authors": [
     {
       "name": "Sean Leach",
@@ -18,8 +18,5 @@
     "psr-4": {
       "Srleach\\InappVerify\\": "src"
     }
-  },
-  "require": {
-    "": ""
   }
 }
