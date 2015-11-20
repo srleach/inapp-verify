@@ -18,5 +18,8 @@
     "psr-4": {
       "Srleach\\InappVerify\\": "src"
     }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^6.1"
   }
 }
