@@ -61,7 +61,7 @@ class AppleApiHelper
      */
     private function sanitise($receiptData)
     {
-        return str_replace("\n", '', $receiptData);
+        return str_replace("\r\n", '', $receiptData);
     }
 
     /**
@@ -89,7 +89,7 @@ class AppleApiHelper
         if (!getenv('APPLE_IAP_VERIFY_URL')) {
             throw new IAPServerUnavailableException('An endpoint for polling apple was not found. Please ensure one is set.', 100021005);
         }
-        $response = Request::post()
+        $response = Request::post(getenv('APPLE_IAP_VERIFY_URL'))
             ->body($this->buildFormattedArray($receiptData, $sharedSecret))
             ->sendsType(Mime::JSON)
             ->send();
